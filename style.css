@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+  }
+
+.image {
+    background-image: url(image/waterfall.avif);
+    flex: 3;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column; 
+}
+
+.form > div {
+    column-gap: 50px;
+    color: red;
+}
+
+
+.formContainer {
+    display: flex;
+}
+
+.header {
+    margin-left: 50px;
+}
+
+.formHeader {
+    margin-left: 50px;
+}
+
+.form label {
+    display: block;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+p
+ {
+color: #f21111;
+}
