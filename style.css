@@ -1,19 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "Ma Shan Zheng";
+  src: url("MaShanZheng-Regular.ttf");
+}
+
 .container {
     display: flex;
     min-height: 100vh;
   }
 
-.image {
-    background-image: url(image/waterfall.avif);
-    flex: 3;
-    justify-content: space-around;
+.odinPic {
     display: flex;
-    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    background-color: rgba(70, 56, 56, 0.4);
+    font-family: "Ma Shan Zheng";
+    font-size: 5rem;
+}
+
+
+.odinPic img {
+    height: 150px;
+    margin-top: 50%;
+    margin: 15px;
+  }
+
+.image {
+    background-image: url(image/snow.avif);
+    flex: 3;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ 
 }
 
 .form > div {
     column-gap: 50px;
     color: red;
+    padding-top: 15px;
 }
 
 
@@ -36,10 +67,23 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-
+    flex: 8;
+    margin-top: 10%;
 }
 
 p
  {
 color: #f21111;
+}
+
+.formContainer + div + div {
+    padding-top: 15px;
+}
+
+.account-creation-section {
+    padding-top: 15px;
+}
+
+.logIn {
+    padding-top: 15px;
 }
