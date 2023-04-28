@@ -1,3 +1,8 @@
+:root {
+    --green-color: #1fa81f;
+    
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -24,7 +29,6 @@ body {
     font-size: 5rem;
 }
 
-
 .odinPic img {
     height: 150px;
     margin-top: 50%;
@@ -33,7 +37,7 @@ body {
 
 .image {
     background-image: url(image/snow.avif);
-    flex: 3;
+    flex: 4;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
@@ -47,18 +51,19 @@ body {
     padding-top: 15px;
 }
 
-
 .formContainer {
     display: flex;
 }
 
+.formHeader,
 .header {
     margin-left: 50px;
 }
 
-.formHeader {
-    margin-left: 50px;
+.secondContainer {
+    background-color: #e6eaee;
 }
+
 
 .form label {
     display: block;
@@ -76,8 +81,20 @@ p
 color: #f21111;
 }
 
+.formContainer > div > input {
+    width: 100%;
+    margin-right: 45px;
+    box-sizing: border-box;
+    border-radius: 4.5px;
+    padding: 5px 15px;
+}
+
+#last_name{
+    border: 2px blue solid;
+}
+
 .formContainer + div + div {
-    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .account-creation-section {
@@ -85,5 +102,34 @@ color: #f21111;
 }
 
 .logIn {
-    padding-top: 15px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+.form,
+.creation-section-container {
+    padding-left: 50px;
+}
+
+.account-creation-section > input {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #1fa81f;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.logIn > span {
+    color: #1fa81f;
+    cursor: pointer;
+}
+
+.error {
+    border: 1.8px red solid;
+}
+
+.formContainer > div > p
+ {
+    margin-top: 0;
 }

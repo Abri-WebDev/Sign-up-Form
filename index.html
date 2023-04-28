@@ -26,11 +26,13 @@
         <h2>This is not a real online service! You know you need something this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</h2>
         <h2>You <i>know</i> you want to</h2>
     </div>
+    <div class="secondContainer">
     <div class="formHeader">
         <h2>Let's do this!</h2>
+      </div>
         <form>
           <div class="form">
-          <div class="formContainer">
+            <div class="formContainer">
             <div>
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" name="first_name" required><br>
@@ -53,14 +55,18 @@
           <div class="formContainer">
             <div>
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required><br>
+            <input type="password" class="error" id="password" name="password" required><br>
+          <p>* Passwords do not match</p>
           </div>
           <div>
             <label for="confirm_password">Confirm Password:</label>
-            <input type="password" id="confirm_password" name="confirm_password" required><br>
+            <input type="password" class="error" id="confirm_password" name="confirm_password" required><br>
            </div>
         </div>
         </div>
+      </div>
+
+        <div class="creation-section-container">
         <div class="account-creation-section">
             <input type="submit" value="Create Account">
         </div>
